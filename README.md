@@ -1,2 +1,2 @@
 # Tic-Tac-Toe
-Please download the entire directory to play the game.
+Please download the game directory to play the game.
