@@ -87,18 +87,18 @@ public class TicTacFrame extends JFrame implements MouseListener, ActionListener
 		play = new JButton("PLAY");
 		play.addActionListener(this);
 		play.setBorderPainted(false);
-        play.setForeground(Color.BLACK);
-        play.setContentAreaFilled(false);
-        play.setBounds(220, 400, 150, 60);
+        	play.setForeground(Color.BLACK);
+        	play.setContentAreaFilled(false);
+        	play.setBounds(220, 400, 150, 60);
 		play.setFont(new Font("Berlin Sans FB", Font.BOLD, 30));
 		panel1.add(play);
 		
 		exit = new JButton("EXIT");
 		exit.addActionListener(this);
 		exit.setBorderPainted(false);
-        exit.setForeground(Color.BLACK);
-        exit.setContentAreaFilled(false);
-        exit.setBounds(220, 450, 150, 60);
+		exit.setForeground(Color.BLACK);
+		exit.setContentAreaFilled(false);
+		exit.setBounds(220, 450, 150, 60);
 		exit.setFont(new Font("Berlin Sans FB", Font.BOLD, 30));
 		panel1.add(exit);
 		
@@ -128,7 +128,7 @@ public class TicTacFrame extends JFrame implements MouseListener, ActionListener
 		
 		// 2. Making Buttons
 		one = new JButton("");
-	    one.addMouseListener(this);
+	  	one.addMouseListener(this);
 		one.setContentAreaFilled(false);
 		one.setBorderPainted(false);
 		one.setBounds(150, 75, 85, 85);
@@ -137,7 +137,7 @@ public class TicTacFrame extends JFrame implements MouseListener, ActionListener
 		panel2.add(one);
 		
 		two = new JButton("");
-	    two.addMouseListener(this);
+	   	 two.addMouseListener(this);
 		two.setContentAreaFilled(false);
 		two.setBorderPainted(false);
 		two.setBounds(248, 75, 85, 85);
@@ -146,7 +146,7 @@ public class TicTacFrame extends JFrame implements MouseListener, ActionListener
 		panel2.add(two);
 		
 		three = new JButton("");
-	    three.addMouseListener(this);
+	        three.addMouseListener(this);
 		three.setContentAreaFilled(false);
 		three.setBorderPainted(false);
 		three.setBounds(345, 75, 85, 85);
@@ -155,7 +155,7 @@ public class TicTacFrame extends JFrame implements MouseListener, ActionListener
 		panel2.add(three);
 		
 		four = new JButton("");
-	    four.addMouseListener(this);
+	        four.addMouseListener(this);
 		four.setContentAreaFilled(false);
 		four.setBorderPainted(false);
 		four.setBounds(150, 170, 85, 85);
@@ -164,7 +164,7 @@ public class TicTacFrame extends JFrame implements MouseListener, ActionListener
 		panel2.add(four);
 		
 		five = new JButton("");
-	    five.addMouseListener(this);
+	        five.addMouseListener(this);
 		five.setContentAreaFilled(false);
 		five.setBorderPainted(false);
 		five.setBounds(248, 170, 85, 85);
@@ -173,7 +173,7 @@ public class TicTacFrame extends JFrame implements MouseListener, ActionListener
 		panel2.add(five);
 		
 		six = new JButton("");
-	    six.addMouseListener(this);
+	        six.addMouseListener(this);
 		six.setContentAreaFilled(false);
 		six.setBorderPainted(false);
 		six.setBounds(345, 170, 85, 85);
@@ -182,7 +182,7 @@ public class TicTacFrame extends JFrame implements MouseListener, ActionListener
 		panel2.add(six);
 
 		seven = new JButton("");
-	    seven.addMouseListener(this);
+	        seven.addMouseListener(this);
 		seven.setContentAreaFilled(false);
 		seven.setBorderPainted(false);
 		seven.setBounds(150, 265, 85, 85);
@@ -191,7 +191,7 @@ public class TicTacFrame extends JFrame implements MouseListener, ActionListener
 		panel2.add(seven);
 
 		eight = new JButton("");
-	    eight.addMouseListener(this);
+	        eight.addMouseListener(this);
 		eight.setContentAreaFilled(false);
 		eight.setBorderPainted(false);
 		eight.setBounds(248, 265, 85, 85);
@@ -200,7 +200,7 @@ public class TicTacFrame extends JFrame implements MouseListener, ActionListener
 		panel2.add(eight);
 
 		nine = new JButton("");
-	    nine.addMouseListener(this);
+	        nine.addMouseListener(this);
 		nine.setContentAreaFilled(false);
 		nine.setBorderPainted(false);
 		nine.setBounds(345, 265, 85, 85);
@@ -212,18 +212,18 @@ public class TicTacFrame extends JFrame implements MouseListener, ActionListener
 		replay.setVisible(false);
 		replay.addActionListener(this);
 		replay.setBorderPainted(false);
-        replay.setForeground(Color.BLACK);
-        replay.setContentAreaFilled(false);
+                replay.setForeground(Color.BLACK);
+                replay.setContentAreaFilled(false);
 		replay.setBounds(130, 450, 170, 40);
 		replay.setFont(new Font("Berlin Sans FB", Font.BOLD, 30));
 		panel2.add(replay);
 		
 		back = new JButton("BACK");
 		back.addActionListener(this);
-        back.setBorderPainted(false);
-        back.setForeground(Color.BLACK);
-        back.setContentAreaFilled(false);
-        back.setBounds(290, 450, 170, 40);
+		back.setBorderPainted(false);
+		back.setForeground(Color.BLACK);
+		back.setContentAreaFilled(false);
+		back.setBounds(290, 450, 170, 40);
 		back.setFont(new Font("Berlin Sans FB", Font.BOLD, 30));
 		back.setVisible(false);
 		panel2.add(back);
