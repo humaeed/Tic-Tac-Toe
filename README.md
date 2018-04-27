@@ -1,6 +1,6 @@
 Tic Tac Toe
 ========================
-A tic tac toe game developed in java for an assignment in my OOP1 course. You can just download the 'game' folder and if you have java installed, run it through command line by typing 'java Start'
+A tic tac toe game developed in java for an assignment in my OOP1 course. You can just download the 'game' folder and if you have java installed, run it through command line by typing `java Start`
 
 
 Rules
